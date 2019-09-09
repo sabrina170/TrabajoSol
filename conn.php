@@ -1,9 +1,9 @@
 <?php
 // Connection variables
-$dbhost	= "localhost";	   // localhost or IP
-$dbuser	= "root";		  // database username
-$dbpass	= "";		     // database password
-$dbname	= "phplogin";    // database name
+$dbhost	= "us-cdbr-iron-east-02.cleardb.net";	   // localhost or IP
+$dbuser	= "b01543e2235627";		  // database username
+$dbpass	= "c49cad73";		     // database password
+$dbname	= "heroku_47ef9b9b19eab6e";    // database name
 
 $con=@mysqli_connect($dbhost, $dbuser, $dbpass	, $dbname);
     if(!$con){

@@ -53,7 +53,7 @@ session_start();
 				$_SESSION['start'] = time();
 				$_SESSION['expire'] = $_SESSION['start'] + (1 * 60) ;						
 				
-			 header("Location:index.php");	
+			 header("Location:Vista.php");	
 			
 			} else {
 				echo "<div class='alert alert-danger mt-4' role='alert'>Email or Password are incorrects!
